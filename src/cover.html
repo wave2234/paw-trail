@@ -40,7 +40,7 @@ svg.map{position:absolute;left:0;top:0}
 <div class="sig">wave2234 &amp; Claude</div>
 <script>
 const p=document.getElementById('rt'),L=p.getTotalLength(),g=document.getElementById('feet'),NS='http://www.w3.org/2000/svg';
-for(let d=40,k=0;d<L-30;d+=34,k++){const a=p.getPointAtLength(d),b=p.getPointAtLength(Math.min(L,d+2));const ang=Math.atan2(b.y-a.y,b.x-a.x),deg=ang*180/Math.PI;
+for(let d=40,k=0;d<L-30;d+=34,k++){const a=p.getPointAtLength(d),b=p.getPointAtLength(Math.min(L,d+2));if(a.y<70&&a.x>990)continue;const ang=Math.atan2(b.y-a.y,b.x-a.x),deg=ang*180/Math.PI;
   const side=k%2?1:-1,off=17,x=a.x+Math.cos(ang+Math.PI/2)*off*side,y=a.y+Math.sin(ang+Math.PI/2)*off*side;
   const u=document.createElementNS(NS,'use');const him=side>0;u.setAttribute('href',him?'#paw':'#star');u.setAttribute('width',him?17:15);u.setAttribute('height',him?17:15);
   u.setAttribute('x',-8);u.setAttribute('y',-8);u.setAttribute('fill',him?'#8A6E58':'#E0A33C');u.setAttribute('opacity','.85');
