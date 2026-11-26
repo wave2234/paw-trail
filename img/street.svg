@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9C7A4"/><stop offset="1" stop-color="#F3E3CC"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#s)"/>
+<path d="M0 230 L120 200 L240 230 V600 H0Z" fill="#8A6E58"/><path d="M-10 236 Q60 222 120 196 Q180 222 250 236" fill="none" stroke="#5A4535" stroke-width="14" stroke-linecap="round"/><rect x="20" y="260" width="200" height="120" fill="#E8DCC8"/><path d="M20 300 h200 M20 340 h200 M86 260 v120 M152 260 v120" stroke="#B49B80" stroke-width="5"/><rect x="0" y="420" width="240" height="180" fill="#6B5544"/><rect x="60" y="450" width="120" height="150" fill="#E9A07D" opacity=".55"/>
+<path d="M560 240 L680 210 L800 240 V600 H560Z" fill="#8A6E58"/><path d="M550 246 Q620 232 680 206 Q740 232 810 246" fill="none" stroke="#5A4535" stroke-width="14" stroke-linecap="round"/><rect x="580" y="270" width="200" height="110" fill="#E8DCC8"/><path d="M580 308 h200 M580 344 h200 M646 270 v110 M712 270 v110" stroke="#B49B80" stroke-width="5"/><rect x="560" y="420" width="240" height="180" fill="#6B5544"/><rect x="620" y="450" width="120" height="150" fill="#E9A07D" opacity=".55"/>
+<path d="M240 330 L560 330 L520 600 H280Z" fill="#DCCDB4"/><g stroke="#CDB89A" stroke-width="4"><path d="M300 400 H500 M290 470 H510 M284 540 H516"/></g>
+<path d="M0 150 Q200 210 400 190 T800 150" fill="none" stroke="#6B5544" stroke-width="3"/>
+<g><path d="M110 178 v20 M260 196 v20 M400 190 v20 M540 196 v20 M690 178 v20" stroke="#6B5544" stroke-width="3"/>
+<g fill="#DA7756"><ellipse cx="110" cy="224" rx="24" ry="28"/><ellipse cx="260" cy="242" rx="24" ry="28"/><ellipse cx="400" cy="236" rx="24" ry="28"/><ellipse cx="540" cy="242" rx="24" ry="28"/><ellipse cx="690" cy="224" rx="24" ry="28"/></g>
+<g stroke="#BF5A36" stroke-width="3"><path d="M90 224 h40 M240 242 h40 M380 236 h40 M520 242 h40 M670 224 h40"/></g>
+<g stroke="#BF5A36" stroke-width="3" stroke-linecap="round"><path d="M110 252 v18 M260 270 v18 M400 264 v18 M540 270 v18 M690 252 v18"/></g></g>
+<g fill="#F6D7A8" opacity=".6"><circle cx="110" cy="224" r="40"/><circle cx="400" cy="236" r="40"/><circle cx="690" cy="224" r="40"/></g>
+</svg>

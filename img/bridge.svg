@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7EEDD"/><stop offset="1" stop-color="#F2DFC6"/></linearGradient><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9DCD8"/><stop offset="1" stop-color="#A9C6C4"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#s)"/><circle cx="560" cy="190" r="46" fill="#E9A07D" opacity=".75"/>
+<path d="M0 300 Q90 230 190 262 T380 250 Q470 228 560 262 T800 246 V340 H0Z" fill="#D8D0BD"/>
+<path d="M118 150 h8 l4 120 h-16z" fill="#9C8571"/><path d="M114 156 h16 M115 176 h14 M116 198 h12 M117 222 h10" stroke="#7E6857" stroke-width="3"/>
+<path d="M0 330 Q140 268 300 300 T560 292 Q680 280 800 300 V360 H0Z" fill="#BFC8A6"/>
+<rect y="345" width="800" height="255" fill="url(#w)"/>
+<path d="M120 396 H700" stroke="#E3D5BE" stroke-width="22"/><path d="M190 396 Q410 262 630 396" fill="none" stroke="#E8DCC8" stroke-width="30"/><path d="M190 396 Q410 262 630 396" fill="none" stroke="#C9B396" stroke-width="3" transform="translate(0 15)"/>
+<path d="M250 407 Q410 300 570 407" fill="#A9C6C4"/><path d="M250 407 Q410 512 570 407" fill="none" stroke="#C3D6D3" stroke-width="10" opacity=".8"/>
+<path d="M190 396 Q410 262 630 396" fill="none" stroke="#FFFAF2" stroke-width="4" transform="translate(0 -13)" opacity=".8"/>
+<g stroke="#D8E6E3" stroke-width="3" stroke-linecap="round" opacity=".9"><path d="M80 470h70M640 488h90M300 540h120M520 560h60"/></g>
+<path d="M760 110 C720 190 716 300 730 420" fill="none" stroke="#8A6E58" stroke-width="9" stroke-linecap="round"/>
+<g fill="none" stroke="#9DAE7E" stroke-width="3" stroke-linecap="round"><path d="M740 150 q-30 90 -24 190"/><path d="M748 170 q-46 80 -52 200"/><path d="M752 200 q-20 70 -10 170"/><path d="M736 130 q-60 70 -80 160"/><path d="M745 140 q-12 90 4 210"/><path d="M756 120 q-80 60 -110 130"/></g>
+<circle cx="404" cy="318" r="6" fill="#DA7756"/><path d="M404 324 v14" stroke="#6B5544" stroke-width="3"/>
+</svg>
