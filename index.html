@@ -74,6 +74,10 @@ a{color:inherit}
 .seg{flex:none;height:44px;display:flex;padding:4px;border-radius:22px;background:var(--glass);border:1px solid var(--line);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);box-shadow:var(--sh1)}
 .seg a{display:grid;place-items:center;padding:0 14px;border-radius:18px;font-size:14px;font-weight:600;color:var(--ink2);text-decoration:none;white-space:nowrap}
 .seg a.on{background:var(--accent-d);color:#fff}
+/* 左上角「教程 ↗」: 一个实心圆角按钮带斜箭头, 一看就知道能点进去 */
+.gh{flex:none;height:44px;display:inline-flex;align-items:center;gap:5px;padding:0 15px 0 18px;border-radius:22px;background:var(--accent-d);color:#fff;font-size:15px;font-weight:600;letter-spacing:.02em;text-decoration:none;white-space:nowrap;box-shadow:0 6px 16px -6px rgba(150,70,30,.55);-webkit-tap-highlight-color:transparent;transition:transform .15s}
+.gh svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+.gh:active{transform:scale(.95)}
 .ttl{flex:1;min-width:0;height:44px;padding:0 16px;border-radius:22px;background:var(--glass);border:1px solid var(--line);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);box-shadow:var(--sh1);display:flex;flex-direction:column;justify-content:center;text-align:left;transition:opacity .3s,transform .3s}
 .ttl b{font-size:14px;font-weight:600;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ttl span{font-size:12px;line-height:1.25;color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -442,7 +446,7 @@ textarea::placeholder,input::placeholder{color:var(--ink2);opacity:.75}
 <div id="map"></div>
 
 <header class="top">
-  <nav class="seg"><a class="on" href="#" aria-current="page">共游</a><a href="https://github.com/wave2234/paw-trail" target="_blank" rel="noopener">教程</a></nav>
+  <a class="gh" href="https://github.com/wave2234/paw-trail" target="_blank" rel="noopener" aria-label="看教程(GitHub)">教程<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8.5 7H17v8.5"/></svg></a>
   <button class="ttl" id="ttl" title="回到封面"><b id="ttlT">共游</b><span id="ttlS"></span></button>
   <button class="thm" id="thm" title="白天 / 黑夜" aria-label="切换白天黑夜"><svg class="ic"><use href="#i-moon"/></svg></button>
 </header>
